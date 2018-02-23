@@ -1,0 +1,49 @@
+{
+  "manifest": "1",
+  "version": "1.0.2",
+  "elements": [
+    {
+      "name": "Test Box",
+      "path": "files",
+      "version": "1.0.2",
+      "settings": {
+        "config": {
+          "autopop": true
+        },
+        "properties": [
+          {
+            "name": "settings",
+            "label": "Settings",
+            "type": "group",
+            "properties": [
+              {
+                "name": "placeholder",
+                "default": "placeholder",
+                "type": "string",
+                "label": "Placeholder text"
+              },
+              {
+                "name": "submit",
+                "default": "Submit",
+                "type": "string",
+                "label": "Button text"
+              },
+              {
+                "name": "backgroundColor",
+                "label": "Content Background",
+                "type": "color",
+                "default": "#FFFFFF"
+              },
+              {
+                "name": "borderColor",
+                "label": "Border Color",
+                "type": "color",
+                "default": "#C9CDCF"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

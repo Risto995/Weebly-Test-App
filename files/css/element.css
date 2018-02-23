@@ -1,0 +1,10 @@
+.test-box {
+  @border: 1px solid @borderColor;
+
+  width: 100%;
+  background-color: @backgroundColor;
+  border: @border;
+  border-spacing: 0;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+}
