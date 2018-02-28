@@ -1,6 +1,6 @@
 {
   "manifest": "1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "elements": [
     {
       "name": "Test Box",
@@ -44,6 +44,39 @@
           }
         ]
       }
+    }
+  ],
+  "dashboard_cards": [
+ {
+      "name": "TestCard",
+      "version": "1.0.0",
+      "label": "Test Card",
+      "icon": "icon.svg",
+      "link": "https://myurl.com:jwt",
+      "default": [
+        [
+          {
+            "type": "text",
+            "title": "This is a text component",
+            "value": "And it's on the first pane",
+            "link": "https://myurl.com:jwt"
+          },
+          {
+            "type": "text",
+            "title": "This is the second text component",
+            "value": "And it's also on the first pane",
+            "link": "https://myurl.com:jwt"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "title": "Hello, Pane 2!",
+            "value": "This card is in the second array and so on the second pane.",
+            "link": "https://myurl.com:jwt"
+          }
+        ]
+      ]
     }
   ]
 }
